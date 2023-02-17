@@ -1,0 +1,4 @@
+.gitignore/
+images/
+database.sql/
+DbConfig.php
