@@ -2,3 +2,6 @@
 images/
 database.sql/
 DbConfig.php
+test.php
+test2.php
+database.sql
