@@ -100,7 +100,6 @@ if (($_SERVER['REQUEST_METHOD'] == 'POST')) {
                                             <span>Movies</span>
                                             <i class="fas fa-chevron-right"></i>
                                         </a>
-
                                     </li>
                                     <li>
                                         <a>
