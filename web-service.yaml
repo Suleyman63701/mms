@@ -15,3 +15,19 @@ spec:
 ##### NodePort ####
 
 #thest yaml fir  git
+
+---
+#ClusterIp#
+apiVersion: v1
+kind: Service
+metadata:
+  name: my-service
+spec:
+  selector:
+    app: web-server  #git this connects to web-server pod
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 9376
+
+--- 
