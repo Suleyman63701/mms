@@ -9,9 +9,6 @@ $movie = $moviesController->getMovie($_GET['id']);
 
 if (($_SERVER['REQUEST_METHOD'] == 'POST')) {
 
-
-
-
 }
 ?>
 
