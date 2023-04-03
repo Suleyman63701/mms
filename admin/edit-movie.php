@@ -219,7 +219,7 @@ if (($_SERVER['REQUEST_METHOD'] == 'POST')) {
                                                 // $genres = $crud->read("SELECT * FROM genres", false);  causes error when added false flag
                                                 $genres = $crud->read("SELECT * FROM genres");
                                                 $current_genres = explode(',', $movie[0]['genres']);
-                                                //test
+                                                //test test genres test for git
                                                 ?>
                                                     <select data-placeholder="Select Genres..." multiple
                                                         class="form-control genre" name="">
